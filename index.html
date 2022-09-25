@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <div>
+  <div id="container">
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thaank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
@@ -36,12 +36,12 @@
         <label for="">Not Sure</label>
 
       <p>What is your favorite feature of freeCodeCamp?</p>
-      <input id="d" list="dropdown2" placeholder="Projects" /><br />
+      <input id="dropdown " list="dropdown2" placeholder="Projects" /><br />
       <datalist id="dropdown2">
         <option value="Challanges">
         <option value="Projects">
         <option value="Community">
-        <option value="OPen source">
+        <option value="Open source">
       </datalist>
       <p>What would you like to see improved? (Check all that apply)</p>
       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
@@ -69,7 +69,7 @@
 
       <p>Any comments or suggestions?</p>
       <textarea></textarea><br/><br/>
-      <input type="submit" value="submit">
+      <input id="submit" type="submit" value="submit">
     </form>
   </div>
 
